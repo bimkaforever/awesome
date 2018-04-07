@@ -1,0 +1,179 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
+
+body {
+	background-color: #f2f2f2;
+	font-family: "Lato";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: "Raleway";
+	font-weight: 300;
+	colot: #333;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered {
+	text-align: center;
+}
+
+
+a {
+	colot: #f85c37;
+}
+
+a: hover, a:focus {
+	text-decoration: none
+	color: #7b7b7b;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #ff7878;
+}
+
+
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+}
+
+.nav a, .w h4{
+	text-transform: uppercase;
+}
+
+#headerwrap {
+	background: url(../img/header-bg.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+}
+
+#headerwrap h1{
+	margin-top: 100px;
+	color: #fff;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+
+#headerwrap h2 {
+	color: #fff;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4, .wb h4, #fb h4, .gb h4 {
+	font-weight: 700;
+}
+
+.w i {
+	color: #ff7878;
+	font-size: 30px;
+}
+
+.fa-circle {
+		color: #ff7878;
+}
+
+#dg {
+	    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#dg h4 {
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.tilt {
+	-webkit-transition: all 0.5s ease;
+	    transition: all 0.5s ease;
+}
+
+.tilt:hover {
+	 transform: rotate(-10deg);
+}
+
+.wb {
+	  padding-top: 70px;
+}
+
+#fb {
+	background: #ebebeb;
+	padding-bottom: 50px;
+}
+
+#fb h4 {
+	padding-top: 90px;
+}
+
+.gb {
+	background-color: #ff7878;
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 30px;
+}
+
+.footer1 {
+		background-color: #000;
+		padding-top: 20px;
+		padding-bottom: 20px;
+}
+
+.footer1 a{
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.footer1 a:hover{
+		color: #ff7878;
+}
